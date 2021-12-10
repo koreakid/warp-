@@ -46,6 +46,8 @@ systemctl start wg-quick@wgcf
 systemctl restart wg-quick@wgcf                                                                                                                                     
 
 
+
+
 screen用法：
 
 screen -S warp   #新建名为warp的窗口
