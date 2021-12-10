@@ -47,6 +47,9 @@ systemctl restart wg-quick@wgcf
 
 
 screen用法：
+
 screen -S warp   #新建名为warp的窗口
+
 screen -r warp（只有一个窗口时，可以直接screen -r）  恢复创建的warp
+
 退出当前窗口：在当前会话窗口中按Ctrl a +d快捷键可以实现分离
