@@ -1,5 +1,5 @@
 分享 某位大佬的github脚本
-https://github.com/luoxue-bot/warp_auto_change_ip
+https://github.com/luoxue-bot/warp_auto_change_ip                                                                                             
 
 目前的warp ipv4可以解锁奈飞，但用一段时间会失效（大概1天-1周不等）
 而每次执行重启命令restart wg-quick@wgcf   就会刷新它的ip
