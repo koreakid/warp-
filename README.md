@@ -16,7 +16,7 @@ https://github.com/luoxue-bot/warp_auto_change_ip
 第37行的sleep 6可以改成任意时间，单位是秒，一般来说，1分钟即sleep 60就行，ip基本都可以存活一整天以上，不需要那么频繁的检测
 
 （先进入screen）
-wget https://github.com/luoxue-bot/warp_auto_change_ip/raw/main/warp_change_ip.sh && chmod +x warp_change_ip.sh && ./warp_change_ip.sh
+wget https://raw.githubusercontent.com/koreakid/warp-/main/warp_change_ip.sh && chmod +x warp_change_ip.sh && ./warp_change_ip.sh
 
 如果之前没用安装过warp，首次运行脚本，根据提示"Is warp installed? [y/n] " 选择n，它会安装warp
 然后再次运行脚本，选y
