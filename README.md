@@ -1,7 +1,7 @@
 分享 某位大佬的github脚本
-https://github.com/luoxue-bot/warp_auto_change_ip                                                                                             
+https://github.com/luoxue-bot/warp_auto_change_ip                                                                                                                              
 
-目前的warp ipv4可以解锁奈飞，但用一段时间会失效（大概1天-1周不等）
+目前的warp ipv4可以解锁奈飞，但用一段时间会失效（大概1天-1周不等）                                                                                                                   
 而每次执行重启命令restart wg-quick@wgcf   就会刷新它的ip
 这个脚本就是每隔一段时间（可设置），检测一下解锁nf是否有效，如果失效了，不断重启warp直到刷出了可以解锁奈飞的ip
 
@@ -38,12 +38,12 @@ bash <(curl -L -s check.unlock.media)
 
 
 
-停止warp
-systemctl stop wg-quick@wgcf
-启动
-systemctl start wg-quick@wgcf
-重启
-systemctl restart wg-quick@wgcf
+停止warp                                                                                                                                                                        
+systemctl stop wg-quick@wgcf                                                                                                                                                  
+启动                                                                                                                                                              
+systemctl start wg-quick@wgcf                                                                                                                                                   
+重启                                                                                                                                                      
+systemctl restart wg-quick@wgcf                                                                                                                                     
 
 
 screen用法：
