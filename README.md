@@ -36,6 +36,8 @@ bash <(curl -L -s check.unlock.media)
 
 开启warp后，ipv4的流量会被接管，这时无法申请域名的证书。停止，申请证书，再打开 即可
 
+
+
 停止warp
 systemctl stop wg-quick@wgcf
 启动
